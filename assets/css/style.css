@@ -2544,7 +2544,7 @@ box-shadow: black;
   position: absolute;
   content: '';
   transition: transform 0.3s ease;
-  z-index: -1;
+  
 }
 
 .transition:hover::before {
@@ -2553,5 +2553,5 @@ box-shadow: black;
 
 .transition img {
   position: relative;
-  z-index:9
+  
 }
